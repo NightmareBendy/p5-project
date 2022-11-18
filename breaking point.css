@@ -1,0 +1,49 @@
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+canvas
+{
+    border-style: solid;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    border-left-color: magenta;
+    border-right-color: orange;
+    animation-name: FINAL_WARNING;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: rgba(2, 23, 255, 0);
+}
+@keyframes FINAL_WARNING
+{
+    from {box-shadow: 1px 1px 38px Red}
+    to {box-shadow: 1px 1px 38px Blue}
+}
+.btn-danger:hover
+{
+background-color: #90eaeb;
+color: black;
+}
+.btn-success:hover
+{
+    background-color: red;
+    color: lightblue;
+}
+circle
+{
+    color: red;
+
+}
+#color_name
+{
+    float: right;
+}
+.btn-danger
+{
+    float: right;
+}
+.btn-success
+{
+    float: left;
+}
